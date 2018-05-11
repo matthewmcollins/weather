@@ -6,7 +6,8 @@
   "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test":
+      "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
   "author": "",
@@ -24,7 +25,7 @@
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
-    "jquery": "^2.2.1",
+    "jquery": "^3.0.0",
     "jsdom": "^8.1.0",
     "mocha": "^5.1.1",
     "prettier-eslint": "^8.8.1",
